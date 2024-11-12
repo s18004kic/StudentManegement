@@ -19,6 +19,13 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class Application {
+	//private Map<String, String> students = new HashMap<>();
+//
+	//public Application(){
+	//	students.put("20","kin momotarou");
+	//	students.put("21","akai tarou");
+	//	students.put("22","midoriya jirou");
+	//}
 
 	@Autowired
 	private StudentRepository repository;
